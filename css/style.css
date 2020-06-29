@@ -364,8 +364,10 @@ html {
   border-radius: 4px;
   border: 1px solid #afb1b8;
 }
+
 .clients-list .item:hover {
-  color: var(--accent-color);
+  border-color: var(--accent-color);
+  fill: var(--accent-color);
 }
 .client-link {
   display: flex;
