@@ -335,10 +335,18 @@ html {
   padding-top: 12px;
   padding-left: 12px;
 }
+.social-icon {
+  fill: #afb1b8;
+  width: 20px;
+  height: 20px;
+}
+.social-icon:hover,
+.social-icon:focus {
+  fill: #ffffff;
+}
 .social-network .item:hover,
 .social-network .item:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
 }
 
 .clients {
@@ -356,10 +364,19 @@ html {
   border-radius: 4px;
   border: 1px solid #afb1b8;
 }
+.clients-list .item:hover {
+  color: var(--accent-color);
+}
 .client-link {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.client-icon {
+  fill: #afb1b8;
+}
+.client-icon:hover {
+  fill: var(--accent-color);
 }
 .clients .title {
   margin-bottom: 50px;
