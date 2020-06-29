@@ -125,7 +125,7 @@ html {
   width: 10px;
   height: 15px;
   content: '';
-  margin-right: 5px;
+  margin-right: 10px;
   background-image: url(../images/phone.svg);
 }
 
@@ -224,7 +224,6 @@ html {
 .advantages-list .item:nth-child(4)::before {
   background-image: url('../images/AdvantModerntech.svg');
 }
-
 .advantages .title {
   font-style: normal;
   font-size: 14px;
@@ -411,6 +410,20 @@ html {
   padding: 0;
   background-color: var(--footer-backgr-color);
 }
+.social-network .item {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 22px;
+  align-content: center;
+  padding-top: 12px;
+  padding-left: 12px;
+}
+.social-network .item:hover,
+.social-network .item:focus {
+  background-color: var(--accent-color);
+}
 .subscribe {
   margin-bottom: 20px;
 }
@@ -495,6 +508,8 @@ html {
   margin-right: 30px;
   width: 370px;
   height: 404px;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 .portfolio-projects .title {
   margin-top: 20px;
