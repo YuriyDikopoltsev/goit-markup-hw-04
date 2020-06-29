@@ -45,6 +45,7 @@ html {
   display: block;
 }
 .logo {
+  display: flex;
   font-family: Raleway, sans-serif;
   font-style: Bold;
   font-size: 26px;
@@ -59,6 +60,7 @@ html {
   color: var(--title-text-color);
 }
 .web {
+  padding-right: 9px;
   color: var(--accent-color);
 }
 .list {
@@ -199,6 +201,30 @@ html {
 .advantages-list {
   display: flex;
 }
+.advantages-list .item::before {
+  content: '';
+  display: block;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  height: 120px;
+  border-radius: 4px;
+  padding: 25px 102px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.advantages-list .item:nth-child(1)::before {
+  background-image: url('../images/AdvantDetails.svg');
+}
+.advantages-list .item:nth-child(2)::before {
+  background-image: url('../images/AdvantPunctual.svg');
+}
+.advantages-list .item:nth-child(3)::before {
+  background-image: url('../images/AdvantPlanning.svg');
+}
+.advantages-list .item:nth-child(4)::before {
+  background-image: url('../images/AdvantModerntech.svg');
+}
+
 .advantages .title {
   font-style: normal;
   font-size: 14px;
@@ -206,18 +232,6 @@ html {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
-}
-.advantage-image:hover,
-.advantage-image:focus {
-  color: var(--accent-color);
-}
-.advantage-image {
-  margin-bottom: 30px;
-  background-color: #f5f4fa;
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  padding: 25px 102px;
 }
 .advantages-list .item:not(:last-child) {
   margin-right: 30px;
@@ -405,8 +419,19 @@ html {
   margin-left: 94px;
 }
 .subscribe-button {
+  display: flex;
   margin: 0;
+  align-items: center;
 }
+.subscribe-button::after {
+  width: 24px;
+  height: 24px;
+  content: '';
+  margin-left: 11px;
+  background-size: contain;
+  background-image: url(../images/send.svg);
+}
+
 .credits .item {
   display: block;
   margin-top: 9px;
