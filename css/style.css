@@ -310,7 +310,6 @@ html {
 .team-list > .item:not(:last-child) {
   margin-right: 30px;
 }
-
 .team .text {
   font-size: 16px;
   line-height: 19px;
@@ -326,6 +325,22 @@ html {
 .social-network .item:not(:last-child) {
   margin-right: 10px;
 }
+.social-network .item {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 22px;
+  align-content: center;
+  padding-top: 12px;
+  padding-left: 12px;
+}
+.social-network .item:hover,
+.social-network .item:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
 .clients {
   padding-bottom: 94px;
 }
@@ -410,7 +425,7 @@ html {
   padding: 0;
   background-color: var(--footer-backgr-color);
 }
-.social-network .item {
+.social-network-block .item {
   display: block;
   width: 44px;
   height: 44px;
@@ -420,8 +435,8 @@ html {
   padding-top: 12px;
   padding-left: 12px;
 }
-.social-network .item:hover,
-.social-network .item:focus {
+.social-network-block .item:hover,
+.social-network-block .item:focus {
   background-color: var(--accent-color);
 }
 .subscribe {
