@@ -114,6 +114,27 @@ html {
   align-items: center;
   min-width: 150px;
 }
+.envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: #757575;
+}
+.envelope:hover,
+.envelope:focus {
+  fill: var(--accent-color);
+}
+.phone {
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+  fill: #757575;
+}
+.phone:hover,
+.phone:focus {
+  fill: var(--accent-color);
+}
+/* 
 .mail::before {
   width: 16px;
   height: 12px;
@@ -121,13 +142,14 @@ html {
   margin-right: 5px;
   background-image: url(../images/envelope.svg);
 }
-.phoneic::before {
+ .phoneic::before { 
   width: 10px;
   height: 15px;
   content: '';
   margin-right: 10px;
   background-image: url(../images/phone.svg);
 }
+*/
 
 .title {
   font-style: normal;
