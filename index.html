@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body class="body">
+    
     <header class="header">
       <div class="container nav">
         <!-- Logo -->
@@ -31,17 +32,15 @@
         </nav>
         <address class="address">
           <ul class="address-list list">
-            <li><svg class="envelope">
-              <use href="./images/sprite.svg#envelope"></use>
-            </svg></li>
-            <li class="item mail">
-              <a href="mailto:info@devstudio.com" class="link mail">info@devstudio.com</a>
+             <li class="item">
+              <a href="mailto:info@devstudio.com" class="link mail"><svg class="envelope">
+                <use href="./images/sprite.svg#envelope"></use>
+              </svg> info@devstudio.com</a>
             </li>
-            <li><svg class="phone">
-              <use href="./images/sprite.svg#phone"></use>
-            </svg></li>
-            <li class="item phoneic">
-              <a class="link " href="tel:+380961111111">+38 096 111 11 11</a>
+            <li class="item">
+              <a class="link " href="tel:+380961111111"><svg class="phone">
+                <use href="./images/sprite.svg#phone"></use>
+              </svg>+38 096 111 11 11</a>
             </li>
           </ul>
         </address>
@@ -61,7 +60,8 @@
         </div>
       </section>
 
-      <section class="section advantages container">
+      <section class="section advantages">
+        <div class="container">
         <!--Section Advantages  -->
         <h2 class="hidden">Наши преимущества</h2>
         <!-- Invisible header -->
@@ -93,9 +93,11 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
 
-      <section class="activities section-no-padding container">
+      <section class="activities section-no-padding">
+        <div class="container">
         <!--Section Activities  -->
         <h2 class="title">Чем мы занимаемся</h2>
         <ul class=" activities-list list">
@@ -105,7 +107,7 @@
               alt="Десктопными приложениями"
               width="370"
             />
-            <a class="link" href="">Десктопные приложения</a>
+            <p class="text">Десктопные приложения</p>
           </li>
 
           <li class="item">
@@ -114,7 +116,7 @@
               alt="Мобильными приложениями"
               width="370"
             />
-            <a class="link" href="">Мобильные приложения</a>
+            <p class="text">Мобильные приложения</p>
           </li>
 
           <li class="item">
@@ -123,9 +125,10 @@
               alt="Дизайнерскими решениями"
               width="370"
             />
-            <a class="link" href="">Дизайнерские решения</a>
+            <p class="text">Дизайнерские решения</p>
           </li>
         </ul>
+        </div>
       </section>
 
       <section class="section team">
@@ -134,7 +137,7 @@
           <h2 class="title">Наша команда</h2>
           <ul class="team-list list">
             <li class="item">
-              <img class="image photo"
+              <img class="image "
                 src="./images/JohnSmith.jpg"
                 alt="Дизайн продукта Николай Кучеренко"
                 width="270px"
@@ -144,22 +147,22 @@
               <ul class="list social-network">
                 <!-- Social network List -->
                 <li class="item">
-                  <a class="link" href="http://instagram.com/" aria-label="Instagram"><svg class="social-icon">
+                  <a class="link social-link" href="http://instagram.com/" aria-label="Instagram"><svg class="social-icon">
                     <use href="./images/sprite.svg#instagramm"></use>
                   </svg></a>
                 </li>
                 <li class="item">
-                  <a class="link" href="https://twitter.com/" aria-label="Twitter"><svg class="social-icon">
+                  <a class="link social-link" href="https://twitter.com/" aria-label="Twitter"><svg class="social-icon">
                     <use href="./images/sprite.svg#twitter"></use>
                   </svg></a>
                 </li>
                 <li class="item">
-                  <a class="link" href="https://www.facebook.com/" aria-label="Facebook"><svg class="social-icon">
+                  <a class="link social-link" href="https://www.facebook.com/" aria-label="Facebook"><svg class="social-icon">
                     <use href="./images/sprite.svg#facebook"></use>
                   </svg></a>
                 </li>
                 <li class="item">
-                  <a class="link" href="https://www.linkedin.com/" aria-label="LinkedIn"><svg class="social-icon">
+                  <a class="link social-link" href="https://www.linkedin.com/" aria-label="LinkedIn"><svg class="social-icon">
                     <use href="./images/sprite.svg#linkedin"></use>
                   </svg></a>
                 </li>
@@ -167,7 +170,7 @@
             </li>
 
             <li class="item">
-              <img class="image photo"
+              <img class="image "
                 src="./images/MartaStewart.jpg"
                 alt="Фронтэнд разработчик Ольга Иванова"
                 width="270px"
@@ -177,22 +180,22 @@
               <ul class="list social-network">
                 <!-- Social network List -->
                 <li class="item">
-                  <a class="link" href="http://instagram.com/" aria-label="Instagram"><svg class="social-icon">
+                  <a class="link social-link" href="http://instagram.com/" aria-label="Instagram"><svg class="social-icon">
                       <use href="./images/sprite.svg#instagramm"></use>
                     </svg></a>
                 </li>
                 <li class="item">
-                  <a class="link" href="https://twitter.com/" aria-label="Twitter"><svg class="social-icon">
+                  <a class="link social-link" href="https://twitter.com/" aria-label="Twitter"><svg class="social-icon">
                       <use href="./images/sprite.svg#twitter"></use>
                     </svg></a>
                 </li>
                 <li class="item">
-                  <a class="link" href="https://www.facebook.com/" aria-label="Facebook"><svg class="social-icon">
+                  <a class="link social-link" href="https://www.facebook.com/" aria-label="Facebook"><svg class="social-icon">
                       <use href="./images/sprite.svg#facebook"></use>
                     </svg></a>
                 </li>
                 <li class="item">
-                  <a class="link" href="https://www.linkedin.com/" aria-label="LinkedIn"><svg class="social-icon">
+                  <a class="link social-link" href="https://www.linkedin.com/" aria-label="LinkedIn"><svg class="social-icon">
                       <use href="./images/sprite.svg#linkedin"></use>
                     </svg></a>
                 </li>
@@ -201,7 +204,7 @@
             </li>
 
             <li class="item">
-              <img class="image photo"
+              <img class="image "
                 src="./images/RobertJakis.jpg"
                 alt="Маркетолог Андрей Шевченко"
                 width="270px"
@@ -211,22 +214,22 @@
               <ul class="list social-network">
                 <!-- Social network List -->
                 <li class="item">
-                  <a class="link" href="http://instagram.com/" aria-label="Instagram"><svg class="social-icon">
+                  <a class="link social-link" href="http://instagram.com/" aria-label="Instagram"><svg class="social-icon">
                       <use href="./images/sprite.svg#instagramm"></use>
                     </svg></a>
                 </li>
-                <li class="item">
-                  <a class="link" href="https://twitter.com/" aria-label="Twitter"><svg class="social-icon">
+                <li class="item ">
+                  <a class="link social-link" href="https://twitter.com/" aria-label="Twitter"><svg class="social-icon">
                       <use href="./images/sprite.svg#twitter"></use>
                     </svg></a>
                 </li>
                 <li class="item">
-                  <a class="link" href="https://www.facebook.com/" aria-label="Facebook"><svg class="social-icon">
+                  <a class="link social-link" href="https://www.facebook.com/" aria-label="Facebook"><svg class="social-icon">
                       <use href="./images/sprite.svg#facebook"></use>
                     </svg></a>
                 </li>
                 <li class="item">
-                  <a class="link" href="https://www.linkedin.com/" aria-label="LinkedIn"><svg class="social-icon">
+                  <a class="link social-link" href="https://www.linkedin.com/" aria-label="LinkedIn"><svg class="social-icon">
                       <use href="./images/sprite.svg#linkedin"></use>
                     </svg></a>
                 </li>
@@ -235,7 +238,7 @@
             </li>
 
             <li class="item">
-              <img class="image photo"
+              <img class="image "
                 src="./images/MartinDoe.jpg"
                 alt="Дизайнер юзер интерфейса Иван Николаев"
                 width="270px"
@@ -245,22 +248,22 @@
               <ul class="list social-network">
                 <!-- Social network List -->
                 <li class="item">
-                  <a class="link" href="http://instagram.com/" aria-label="Instagram"><svg class="social-icon">
+                  <a class="link social-link" href="http://instagram.com/" aria-label="Instagram"><svg class="social-icon">
                       <use href="./images/sprite.svg#instagramm"></use>
                     </svg></a>
                 </li>
                 <li class="item">
-                  <a class="link" href="https://twitter.com/" aria-label="Twitter"><svg class="social-icon">
+                  <a class="link social-link" href="https://twitter.com/" aria-label="Twitter"><svg class="social-icon">
                       <use href="./images/sprite.svg#twitter"></use>
                     </svg></a>
                 </li>
-                <li class="item">
-                  <a class="link" href="https://www.facebook.com/" aria-label="Facebook"><svg class="social-icon">
+                <li class="item social-link">
+                  <a class="link social-link" href="https://www.facebook.com/" aria-label="Facebook"><svg class="social-icon">
                       <use href="./images/sprite.svg#facebook"></use>
                     </svg></a>
                 </li>
                 <li class="item">
-                  <a class="link" href="https://www.linkedin.com/" aria-label="LinkedIn"><svg class="social-icon">
+                  <a class="link social-link" href="https://www.linkedin.com/" aria-label="LinkedIn"><svg class="social-icon">
                       <use href="./images/sprite.svg#linkedin"></use>
                     </svg></a>
                 </li>
@@ -271,45 +274,66 @@
         </div>
       </section>
 
-      <section class="section clients">
+      <section class="section client">
         <div class="container">
-        <!-- Section Constant Clients -->
+        <!-- Section Constant client -->
         <h2 class="title">Постоянные клиенты</h2>
-        <ul class="list clients-list">
-          <li class="item client-link">
-                         <a class="link" href=""> <svg class="client-icon" width="45px" height="50px">
-              <use href="./images/sprite.svg#ClientLogo1"></use>
-            </svg>
+        <ul class="list client-list">
+          <li class="item">
+            
+              <a class="link" href="">
+<div class="client-link">
+              <svg class="client-icon" width="45px" height="50px">
+                <use href="./images/sprite.svg#ClientLogo1"></use>
+              </svg>
+            </a>
+          </div>     
               </li>
-          <li class="item client-link">               
-            <a class="link" href=""> <svg class="client-icon" width="40px" height="52px">
+          <li class="item">    
+            <div class="client-link">
+              <a class="link" href=""> <svg class="client-icon" width="40px" height="52px">
                 <use href="./images/sprite.svg#ClientLogo2"></use>
               </svg>
+            </a>
+          </div>           
+           </li>
+          <li class="item">       
+            <div class="client-link">
+              <a class="link" href=""> <svg class="client-icon" width="41px" height="43px">
+                  <use href="./images/sprite.svg#ClientLogo3"></use>
+                </svg>
+              </a>
+            </div>   
           </li>
-          <li class="item client-link">         
-                      <a class="link" href=""> <svg class="client-icon" width="41px" height="43px">
-                <use href="./images/sprite.svg#ClientLogo3"></use>
-              </svg>
+          <li class="item">   
+            <div class="client-link">
+              <a class="link" href=""> <svg class="client-icon" width="80px" height="42px">
+                  <use href="./images/sprite.svg#ClientLogo4"></use>
+                </svg>
+              </a>
+            </div>                 
           </li>
-          <li class="item client-link">                    
-            <a class="link" href=""> <svg class="client-icon" width="80px" height="42px">
-                <use href="./images/sprite.svg#ClientLogo4"></use>
-              </svg>
+          <li class="item">
+            <div class="client-link">
+              <a class="link" href=""> <svg class="client-icon" width="59px" height="47px">
+                  <use href="./images/sprite.svg#ClientLogo5"></use>
+                </svg>
+              </a>
+            </div>          
           </li>
-          <li class="item client-link">
-                                <a class="link" href=""> <svg class="client-icon" width="59px" height="47px">
-                <use href="./images/sprite.svg#ClientLogo5"></use>
-              </svg>
-          </li>
-          <li class="item client-link">          
-                      <a class="link" href=""> <svg class="client-icon" width="89px" height="46px">
-                <use href="./images/sprite.svg#ClientLogo6"></use>
-              </svg>
+          <li class="item">   
+            <div class="client-link">
+              <a class="link" href=""> <svg class="client-icon" width="89px" height="46px">
+                  <use href="./images/sprite.svg#ClientLogo6"></use>
+                </svg>
+              </a>
+            </div>   
           </li>
         </ul>
         </div>
       </section>
     </main>
+
 <footer class="footer">
   <div class="container">
     <!-- Footer -->
@@ -325,7 +349,7 @@
             <a href="mailto:info@devstudio.com" class="link mail">info@devstudio.com</a>
           </li>
           <li class="item">
-            <a class="link phone" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
@@ -337,25 +361,25 @@
       <ul class="list social-network">
         <!-- Social network List -->
         <li class="item">
-          <a class="link" href="http://instagram.com/" aria-label="Instagram"><img class="image"
+          <a class="social-link link" href="http://instagram.com/" aria-label="Instagram"><img class="image"
               src="images/Social/instagrammf.svg" alt="Instagram" width="20px" height="20px"></a>
         </li>
         <li class="item">
-          <a class="link" href="https://twitter.com/" aria-label="Twitter"><img class="image"
+          <a class="link social-link" href="https://twitter.com/" aria-label="Twitter"><img class="image"
               src="images/Social/twitterf.svg" alt="Twitter" width="20px" height="17px"></a></a>
         </li>
         <li class="item">
-          <a class="link" href="https://www.facebook.com/" aria-label="Facebook"><img class="image"
+          <a class="link social-link" href="https://www.facebook.com/" aria-label="Facebook"><img class="image"
               src="images/Social/facebookf.svg" alt="Facebook" width="20px" height="20px"></a></a>
         <li class="item">
-          <a class="link" href="https://www.linkedin.com/" aria-label="LinkedIn"><img class="image"
+          <a class="link social-link" href="https://www.linkedin.com/" aria-label="LinkedIn"><img class="image"
               src="images/Social/linkedinf.svg" alt="LinkedIn" width="20px" height="20px"></a></a>
         </li>
     </div>
     <div class="subscribe-block">
       <h2 class="text subscribe">Подпишитесь на рассылку</h2>
-      <p class="subscribe-button button">Подписаться</p>
-      <!-- Тут будет форма подписки - когда научусь! =))) -->
+      <a class="link" href=""><p class="subscribe-button button">Подписаться</p></a>
+        <!-- Тут будет форма подписки - когда научусь! =))) -->
     </div>
 
   </div>
